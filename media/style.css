@@ -1,0 +1,109 @@
+body {
+ margin:0;
+ padding:0;
+ font-family:arial;
+ background:url(img/bg.jpg) repeat-x #d9decd;
+}
+.mainblock {
+ margin: 0 auto;
+ padding:0;
+ margin-top:10px;
+ border:solid 1px #909c98;
+ background:#fff;
+}
+header {
+ text-align:center;
+}
+.top {
+  background:#eef3e2;
+}
+.topmenu {
+ display: -moz-box;
+ display: -webkit-flex;
+ display: flex;
+ text-align:center;
+ flex-direction: row; 
+ width:100%;
+ margin:0 auto;
+}
+.topmenu a{
+ display:block;
+ -moz-box-flex:1;
+ -webkit-flex:1;
+ flex:1;
+ font-size:14px;
+ padding:10px;
+ color:#be1a2a;
+ text-transform:uppercase;
+ background:#afddb1;
+}
+.topmenu a:hover{
+ text-decoration:none;
+ text-shadow:1px 1px green;
+}
+#bighead {
+ width:100%;
+ align-items:stretch;
+ -webkit-align-items:stretch;
+ -moz-box-align:stretch;
+}
+#bighead a {
+ padding:0;
+}
+.head_left {
+ text-align:left;
+}
+.head_right {
+ text-align:right;
+}
+.head_middle {
+}
+.block_for_text {
+ background:white;
+ margin-top:-3px;
+} 
+.zag {
+ width:300px;
+ color:#38441b;
+ font-size:22px;
+ padding-top:13px;
+ text-align:center;
+ margin: 15px 0px;
+
+}
+.block_for_pics div {
+display:inline;
+}
+.my-cont{
+	width:90%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+.main-title {
+font:  normal  1.5em  Calibri,  Candara,
+Segoe,  "Segoe  UI",  Optima,  Arial,
+Helvetica, sans-serif; /* 24px / 16px */
+}
+}
+
+.second-menu
+{margin-bottom: 10px;
+}
+
+.over
+{font-family: Tahoma;
+font-size: 32px;
+background: rgba(243,243,243, 0.9); 
+
+}
+.ping
+{color: #c92d8c;
+}
+.about{
+padding: 20px;
+margin-bottom: 50px;}
+
+h1
+{color: #c92d8c;
+}
