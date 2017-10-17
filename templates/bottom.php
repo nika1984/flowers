@@ -1,4 +1,7 @@
   <div class="container">
+  <button type="button" class="btn btn-success btn-block zag" data-toggle="modal" data-target="#myModal">
+  Каталог цветов
+</button>
 <form class="off" method="post" action="/callback.php">
   <h2>Сделать заказ</h2>
   <div class="col-md-4 col-md-offset-4">    
